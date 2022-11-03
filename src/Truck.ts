@@ -9,7 +9,7 @@
 
 import Vehicle from './Vehicle'
 
-class Truck extends Vehicle {
+abstract class Truck extends Vehicle {
   // this sets the speed
   private licensePlate: string
   private airPressure: number

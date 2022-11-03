@@ -7,7 +7,7 @@
  * Since:   2020-10-27
  */
 
-class Vehicle {
+abstract class Vehicle {
   // protected variable used between classes
   private speed = 0
   private color: string
